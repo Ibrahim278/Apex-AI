@@ -1,5 +1,5 @@
 ---
-title: InsightForge AI
+title: Apex AI
 emoji: 🧠
 colorFrom: blue
 colorTo: purple
@@ -11,7 +11,7 @@ license: mit
 
 <div align="center">
 
-#  InsightForge AI
+#  Apex AI
 
 ### Autonomous, End-to-End Data Science — Powered by LLM Agents
 
@@ -31,7 +31,7 @@ license: mit
 
 ## Overview
 
-InsightForge AI is a full-stack, multi-agent data science platform that guides users through a complete machine learning workflow via an interactive, step-by-step UI. Specialised LLM agents operate behind the scenes — profiling data, designing cleaning strategies, engineering features, selecting and training models, evaluating performance, and generating professional reports — while the user retains control and visibility at every stage.
+Apex AI is a full-stack, multi-agent data science platform that guides users through a complete machine learning workflow via an interactive, step-by-step UI. Specialised LLM agents operate behind the scenes — profiling data, designing cleaning strategies, engineering features, selecting and training models, evaluating performance, and generating professional reports — while the user retains control and visibility at every stage.
 
 The platform is provider-agnostic: it works with Groq, Google Gemini, OpenAI, or OpenRouter. Groq is free and recommended for development.
 
@@ -81,7 +81,7 @@ The platform is provider-agnostic: it works with Groq, Google Gemini, OpenAI, or
 
 ## Architecture
 
-InsightForge AI follows a **modular, agent-based architecture** in which each pipeline step maps to one or more specialised agents coordinated by a LangGraph state graph.
+Apex AI follows a **modular, agent-based architecture** in which each pipeline step maps to one or more specialised agents coordinated by a LangGraph state graph.
 
 ```
 User (Browser)
@@ -152,8 +152,8 @@ React 19 SPA  ──(REST/JSON)──►  FastAPI Backend
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/hafiz-m-awais/InsightForge-AI.git
-cd InsightForge-AI
+git clone https://github.com/hafiz-m-awais/Apex AI-AI.git
+cd Apex AI-AI
 ```
 
 ### 2. Configure environment
@@ -268,7 +268,7 @@ Interactive docs are available at `/docs` (Swagger UI) and `/redoc` when the ser
 ## Project Structure
 
 ```
-InsightForge-AI/
+Apex AI-AI/
 ├── app/
 │   ├── main.py                      # FastAPI app, CORS, static file serving
 │   ├── agents/
@@ -357,7 +357,7 @@ Pull requests are welcome. For major changes, please open an issue first.
 
 ```bash
 # 1. Fork and clone
-git clone https://github.com/YOUR_USERNAME/InsightForge-AI.git
+git clone https://github.com/YOUR_USERNAME/Apex AI-AI.git
 
 # 2. Create a feature branch
 git checkout -b feature/your-feature
