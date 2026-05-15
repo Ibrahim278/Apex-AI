@@ -1,0 +1,45 @@
+<!--
+  InsightForge AI — "Pipeline Strata" favicon
+  Concept: three angular strata (pipeline stages) at an oblique angle, layered blue → indigo → periwinkle,
+  converging toward a bright insight spark node at the right edge.
+  Inspired by layered-polygon aesthetics (AutoML style); fully original geometry.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="s-bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <!-- Glow filter for the insight spark -->
+    <filter id="s-glow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- ── Dark rounded-square badge ────────────────────────── -->
+  <rect width="64" height="64" rx="14" fill="url(#s-bg)"/>
+
+  <!--
+    Three parallelogram strata — each is a slanted slab representing a
+    pipeline stage.  Slant: right edge sits 10 px higher than left edge.
+    Stacked bottom → top with 4 px gaps.  Palette mirrors AutoML opacity layering.
+  -->
+
+  <!-- Bottom stratum — solid deep blue (most prominent) -->
+  <polygon points="8,50  46,50  56,40  18,40" fill="#3b82f6"/>
+
+  <!-- Middle stratum — indigo, 85 % opaque -->
+  <polygon points="8,37  46,37  56,27  18,27" fill="#818cf8" opacity="0.85"/>
+
+  <!-- Top stratum — light periwinkle, 65 % opaque -->
+  <polygon points="8,24  46,24  56,14  18,14" fill="#c7d2fe" opacity="0.65"/>
+
+  <!-- ── Insight spark — bright node where strata converge → -->
+  <circle cx="57" cy="32" r="5.5" fill="#e0f2fe" filter="url(#s-glow)"/>
+  <!-- Crisp inner dot so the spark reads at 16 px -->
+  <circle cx="57" cy="32" r="2.5" fill="white"/>
+</svg>
