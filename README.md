@@ -152,7 +152,7 @@ React 19 SPA  ──(REST/JSON)──►  FastAPI Backend
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/hafiz-m-awais/Apex AI-AI.git
+git clone https://github.com/Ibrahim278/Apex-AI.git
 cd Apex AI-AI
 ```
 
@@ -373,14 +373,14 @@ git push origin feature/your-feature
 
 ## License
 
-[MIT](LICENSE) © 2026 [hafiz-m-awais](https://github.com/hafiz-m-awais)
+[MIT](LICENSE) © 2026 [Ibrahim278](https://github.com/Ibrahim278)
 
 ---
 
 ## Author
 
-**Muhammad Awais**  
-[GitHub](https://github.com/hafiz-m-awais) · [LinkedIn](https://linkedin.com/in/hafiz-m-awais)
+**Ibrahim Irfan**  
+[GitHub](https://github.com/Ibrahim278)
 
 > Built with LangGraph, FastAPI, React, and a lot of ambition.
 
