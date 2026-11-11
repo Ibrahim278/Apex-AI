@@ -1,10 +1,11 @@
 <!--
-  InsightForge AI — "Pipeline Strata" favicon
+  Apex AI — "Pipeline Strata" favicon
   Concept: three angular strata (pipeline stages) at an oblique angle, layered blue → indigo → periwinkle,
   converging toward a bright insight spark node at the right edge.
   Inspired by layered-polygon aesthetics (AutoML style); fully original geometry.
 -->
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none" viewBox="0 0 64 64">
+  <title>Apex AI</title>
   <defs>
     <linearGradient id="s-bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
       <stop offset="0%"   stop-color="#0f172a"/>
